@@ -249,6 +249,12 @@ header {
 	overflow: hidden;
 }
 
+@media screen and (max-width: 1800px) {
+  .project-container {
+		width: 90%;
+	}
+}
+
 button {
 	border: none;
 	background: none;
@@ -368,6 +374,14 @@ button:focus {
 	filter: brightness(70%);
 	opacity: 0.5;
 	margin: 0 20px;
+}
+
+
+@media screen and (max-width: 1800px) {
+  .about-image-container > img {
+		height: auto;
+		width: 90%;
+	}
 }
 
 .about-text-container {
