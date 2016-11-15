@@ -1,3 +1,7 @@
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+  return '';
+}
+else {
 $(function() {
 	var projects = $('.project-container');
 	var prevButtons = $('.prev');
@@ -27,3 +31,4 @@ $(function() {
 		$(projects[k]).fadeIn(300);
 	});
 });
+}
