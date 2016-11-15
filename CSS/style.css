@@ -245,17 +245,15 @@ header {
   and (-webkit-min-device-pixel-ratio: 2) { 
 
   h1 {
-	font-size: 8em;
+	font-size: 5em;
 	}
 
 	h2 {
-		font-size: 4em;
+		font-size: 3em;
 	}
 
 	h3 {
-		font-size: 3em;
-		color: #ccc;
-		margin-bottom: 10px;
+		font-size: 2.5em;
 	}
 
 	p {
@@ -264,10 +262,14 @@ header {
 
 	a {
 		font-size: 2em;
+		color: #ccc;
+		text-decoration: none;
+		font-weight: 600;
 	}
 
 	#portfolio {
 		height: 100%;
+		overflow: visible;
 	}
 
 	button {
