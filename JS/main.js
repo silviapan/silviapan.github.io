@@ -21,6 +21,7 @@ $(function() {
 	$(nextButtons).click(function() {
 		var k = $(nextButtons).index(this);
 		$(projects[k]).fadeOut(300);
+
 		k++;
 		if (k > nextButtons.length - 1) {
 			k = 0;
